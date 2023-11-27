@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    box-shadow: 4px 5px 6px rgba(0,0,0,0.1);
+    padding: 25px;
+}
+.container{
+    /* box-shadow: 4px 5px 6px rgba(0,0,0,0.1); */
+    background: url(./images/uthsorgo.jpeg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    width: 71%;
+}
+.right .right-m {
+    text-align: right;
+    margin-top: 15px;
+    color: rgb(29, 199, 214);
+    text-shadow: 4px 5px 6px rgba(0,0,0,0.1);
+    font-family: 700;
+}
+.right .right-m h2 {
+    font-size: 60px;
+    padding-right: 150px;
+}
+.right .right-m h3 {
+    font-size: 60px;
+    padding-right: 50px;
+}
+.right h1 {
+    color: rgba(22, 191, 233, 0.778);
+    font-size: 35px;
+    padding-top: 60px;
+    margin-top: 170px;
+    text-shadow: 4px 5px 6px rgba(0,0,0,0.1);
+}
+.left {
+    width: 29%;
+}
+.left img {
+    width: 100%;
+    padding-right: 70px;
+    padding-left: 60px;
+    padding-top: 15px;
+    text-shadow: 4px 5px 6px rgba(0,0,0,0.1);
+}
+
+.footer {
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 4px 5px 6px rgba(0,0,0,0.1);
+    font-size: 40px;
+    color: rgba(22, 191, 233, 0.778);
+
+}
+
+
